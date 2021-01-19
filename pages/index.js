@@ -18,7 +18,7 @@ export default function Home() {
         <input value={value} onChange={onChange}/>
         <button onClick={handleClick} type="submit">enviar mensagem</button>
       </form>
-      <iframe ref={iframeRef} src="http://localhost:3000/teste" title="teste"></iframe>
+      <iframe ref={iframeRef} src="/teste" title="teste"></iframe>
     </>
   )
 }
